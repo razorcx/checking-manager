@@ -126,7 +126,7 @@
 			this.dataGridViewObjectCheckingSummary.RowTemplate.Height = 24;
 			this.dataGridViewObjectCheckingSummary.Size = new System.Drawing.Size(1330, 450);
 			this.dataGridViewObjectCheckingSummary.TabIndex = 23;
-			this.dataGridViewObjectCheckingSummary.RowValidated += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridMembers_RowValidated);
+			this.dataGridViewObjectCheckingSummary.RowValidated += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridBeams_RowValidated);
 			this.dataGridViewObjectCheckingSummary.SelectionChanged += new System.EventHandler(this.dataGridViewConnectionCheckingSummary_SelectionChanged);
 			// 
 			// btnAddObject
@@ -137,7 +137,7 @@
 			this.btnAddObject.TabIndex = 24;
 			this.btnAddObject.Text = "Add Beam";
 			this.btnAddObject.UseVisualStyleBackColor = true;
-			this.btnAddObject.Click += new System.EventHandler(this.btnAddObject_Click);
+			this.btnAddObject.Click += new System.EventHandler(this.btnAddBeam_Click);
 			// 
 			// tabControl
 			// 

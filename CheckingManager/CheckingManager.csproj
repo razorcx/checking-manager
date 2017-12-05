@@ -91,9 +91,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BeamChecker.cs" />
     <Compile Include="BeamCheckResult.cs" />
     <Compile Include="BeamCheckSummary.cs" />
     <Compile Include="BeamCheckView.cs" />
+    <Compile Include="ConnectionChecker.cs" />
     <Compile Include="ModelObjectCheck.cs" />
     <Compile Include="ConnectionCheckBase.cs" />
     <Compile Include="CheckingManagerForm.cs">
@@ -134,7 +136,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Logo.png" />
